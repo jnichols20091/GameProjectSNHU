@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9563d89f-95f1-4e3e-8b6d-8e3ff6ca1028" name="Changes" comment="2nd commit">
+    <list default="true" id="9563d89f-95f1-4e3e-8b6d-8e3ff6ca1028" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/GameProjectSNHU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GameProjectSNHU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introscreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/introscreen.py" afterDir="false" />
     </list>
@@ -37,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/josh_and_kelsi/PycharmProjects/GameProjectSNHU&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RunManager">
@@ -76,6 +81,13 @@
       <workItem from="1667178385838" duration="39000" />
       <workItem from="1667179441274" duration="45000" />
       <workItem from="1667179499570" duration="4173000" />
+      <workItem from="1667184645920" duration="219000" />
+      <workItem from="1667184923221" duration="486000" />
+      <workItem from="1667185433440" duration="453000" />
+      <workItem from="1667185892385" duration="211000" />
+      <workItem from="1667186130336" duration="814000" />
+      <workItem from="1667186970491" duration="56000" />
+      <workItem from="1667187046713" duration="463000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1667179825332</created>
