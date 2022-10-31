@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9563d89f-95f1-4e3e-8b6d-8e3ff6ca1028" name="Changes" comment="Initial Commit">
+    <list default="true" id="9563d89f-95f1-4e3e-8b6d-8e3ff6ca1028" name="Changes" comment="2nd commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introscreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/introscreen.py" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <workItem from="1667177955485" duration="413000" />
       <workItem from="1667178385838" duration="39000" />
       <workItem from="1667179441274" duration="45000" />
-      <workItem from="1667179499570" duration="2467000" />
+      <workItem from="1667179499570" duration="4173000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1667179825332</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667179825332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit">
+      <created>1667182093918</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667182093918</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>
 </project>

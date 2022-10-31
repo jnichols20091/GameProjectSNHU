@@ -1,10 +1,13 @@
-from asciimatics.screen import Screen
-from time import sleep
+import asciimatics.effects
+from asciimatics.screen import *
+from asciimatics.effects import *
+
+
+
 
 def demo(screen):
-    screen.print_at('Hello world!', 0, 0)
-    screen.refresh()
-    sleep(10)
+    effects = [
+
 
 Screen.wrapper(demo)
 
