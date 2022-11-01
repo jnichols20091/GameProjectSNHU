@@ -1,5 +1,5 @@
 import asciimatics.effects
-from asciimatics import screen, effects
+from asciimatics import screen, effects, scene
 from asciimatics.screen import *
 from asciimatics.scene import *
 from asciimatics.renderers import *
@@ -17,7 +17,7 @@ button_options = {
 
 
 class DemoFrame(Frame):
-    def __init__(self, scene):
+    def __init__(self, screen):
         super(DemoFrame, self).__init__(scene,
                                         int(screen.height * 2 // 3),
                                         int(screen.width * 2 // 3),
@@ -46,26 +46,25 @@ class DemoFrame(Frame):
         self._reset_button.disabled = not changed
 
 
-def background(screen):
-    effects = [
-        Cycle(
-            screen,
-            FigletText("Welcome!!!", font='ogre'),
-            screen.height // 2 - 3),
-        Cycle(
-            screen,
-            FigletText("To The Game!", font='ogre'),
-            screen.height // 2 + 3),
-        Stars(screen, (screen.width + screen.height)),
-        Matrix(
-            screen,
-        )
-    ]
+    def background(screen):
+        effects = [
+            Cycle(
+                screen,
+                FigletText("Welcome!!!", font='ogre'),
+                screen.height // 2 - 3),
+            Cycle(
+                screen,
+                FigletText("To The Game!", font='ogre'),
+                screen.height // 2 + 3),
+            Stars(screen, (screen.width + screen.height)),
+            Matrix(
+                screen,
+            )
+        ]
 
 
 def demo(screen, scene):
     Screen.play([Scene([
-        background(Screen),
         DemoFrame(Frame)
     ], -1)], stop_on_resize=True, start_scene=scene, allow_int=True)
 
